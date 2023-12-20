@@ -1,0 +1,19 @@
+body {
+    background-color: #d7d9ba; /* Replace with your desired color code or name */
+}
+body {
+    text-align: center;
+}
+.changing-text {
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Initial color */
+    animation: changeColor 5s infinite; /* Change duration as needed */
+  }
+
+  @keyframes changeColor {
+    0% { color: #8b839c; }
+    25% { color: #83979c; }
+    50% { color: #859c83; }
+    75% { color: #9a8585; }
+    100% { color: #9a9a85; }
+  }
